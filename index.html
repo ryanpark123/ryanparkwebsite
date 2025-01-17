@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ryan Park</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class = "logo">Ryan Park</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/DSC05733_Original.png" alt="Ryan Park profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Ryan Park</h1>
+            <p class="section__text__p2">Aspiring Cybersecurity Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume-Ryan_Park (1).pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ryan-j-park/'">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/ryanpark123'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/IMG_2216.JPG" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Cybersecurity / IT</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Current 3rd Year @ UC Irvine <br /> Studying Informatics with a Specialization in Informatiion Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am Ryan Park, an Informatics student at the University of California, Irvine, specializing in Information Technology, with a strong GPA of 3.9. My academic and practical experiences have equipped me with a deep understanding of cybersecurity, network security, and software development, using a diverse range of programming languages and tools such as Python, Java, C#, SQL, Linux, and AWS. I have interned at Allstate Engineering, where I enforced robust security protocols and participated in vital cybersecurity initiatives, and at MuseTown, where I enhanced user engagement and led product development efforts. These roles have honed my skills in implementing security measures, conducting market research, and developing digital products, significantly improving product adoption and operational security. I am also proficient in creating full-stack web applications and developing encryption tools. My aim is to leverage my technical expertise and creative problem-solving skills to contribute to the cutting-edge solutions in the field of IT and cybersecurity. I am eager to bring my strong technical acumen and proactive approach to your team, driving projects that enhance security and user experience.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages/Frameworks</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>PowerShell</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Perl</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Bash/Shell</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Linux</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Splunk</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>macOS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Jira</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience" class="icon"/>
+                            <div>
+                                <h3>Metasploit</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/firewall-icon.png" alt="Project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Firewall Simulation</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ryanpark123/firewallsimulation'">
+                        Github
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/caesar-disk.png" alt="Project 2" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Caesar Cipher</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ryanpark123/caesercipher'">
+                        Github
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/jobhunter.png" alt="Project 3" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Jobhunter Website</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ryanpark123/jobhunter'">
+                        Github
+                    </button>
+                </div>
+            </div></div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:parkryan844@gmail.com">parkryan844@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/ryan-j-park/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Ryan Park. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
